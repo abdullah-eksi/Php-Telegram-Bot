@@ -4,7 +4,7 @@ require_once 'vendor/autoload.php';
 
 use Telegram\Bot\Api;
 
-$botToken = '6025932489:AAFrYArdUgVGDenxyvQQ-MEfKiXgQY42T8o';
+$botToken = '';
 $commandsDir = __DIR__ . '/commands';
 $processedMessagesFile = __DIR__ . '/processed_messages.txt';
 
