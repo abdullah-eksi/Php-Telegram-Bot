@@ -79,7 +79,7 @@ function handleAutorespondCommand($telegram, $params, $message)
 
 
 
-    $chatId = "1751716459";
+    $chatId = $message['chat']['id'];
     $text = $message['text'];
     $user = $message['from']['first_name'];
 
